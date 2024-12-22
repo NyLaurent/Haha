@@ -58,7 +58,7 @@ const Header = forwardRef((props, ref) => {
 
       <HeaderTop />
       <div className="flex flex-row mt-3 w-full justify-between h-14 md:h-20 m-auto items-center border-b border-gray-400">
-        <Link className=" lg:ml-28 ml-10 text-3xl font-medium "to="/">GURA</Link>
+        <Link className=" lg:ml-28 ml-10 text-3xl font-medium " to="/">Haha</Link>
         <ul className="lg:flex flex-row w-80 justify-between font-500 hidden">
           <li>
             <Link to="/" className="hover:underline">

@@ -4,26 +4,26 @@ import Services from "../components/categories/services";
 
 
 const Person = (props) => {
-    return ( 
+  return (
     <>
       <div className='w-[300px]  mx-10  ' >
-         <div className='h-80 border-2 w-full flex p-3 rounded-lg mb-4 bg-slate-100'>
-            <img src="" alt="" />
-         </div>
-         <div className='mx-2'>
-            <h3 className='text-xl font-medium'>{props.name}</h3>
-            <p className='text-sm mb-2'>{props.title}</p>
-            <div className='flex justify-between w-4/12'>
-                <img src={'/images/twitter.svg'} alt="the twitter icon" className='w-5'/>
-                <img src={'/images/instagram.svg'} alt="the instagram icon" className='w-5'/>
-                <img src={'/images/linkedin.svg'} alt="the linkedin icon" className='w-5'/>
-            </div>
-         </div>
+        <div className='h-80 border-2 w-full flex p-3 rounded-lg mb-4 bg-slate-100'>
+          <img src="" alt="" />
+        </div>
+        <div className='mx-2'>
+          <h3 className='text-xl font-medium'>{props.name}</h3>
+          <p className='text-sm mb-2'>{props.title}</p>
+          <div className='flex justify-between w-4/12'>
+            <img src={'/images/twitter.svg'} alt="the twitter icon" className='w-5' />
+            <img src={'/images/instagram.svg'} alt="the instagram icon" className='w-5' />
+            <img src={'/images/linkedin.svg'} alt="the linkedin icon" className='w-5' />
+          </div>
+        </div>
       </div>
-    </> 
-    );
+    </>
+  );
 }
- 
+
 
 
 function Results(props) {
@@ -54,15 +54,15 @@ function AboutMain() {
         <div className="w-4/12 mt-24 ml-20">
           <h1 className="text-3xl font-semibold my-8">Our Story</h1>
           <p className="text-gray-900">
-            Launched in 2015 ,Gura is a Rwanda&apos;s premier online shopping
+            Launched in 2015 ,Haha is a Rwanda&apos;s premier online shopping
             marketplace with an active presence in Rwanda,. Supported by wide
-            range of tailored marketing, data and service solution, GURA has
+            range of tailored marketing, data and service solution, Haha has
             10,500 sallers and 300 brands and serves 3 million customers across
             the region
           </p>
           <p>
-            Gura has more than 1 million products to offer, growing at a very
-            fastrate. Gura offers a diverse assostment in categories ranging
+            Haha has more than 1 million products to offer, growing at a very
+            fastrate. Haha offers a diverse assostment in categories ranging
             from customer
           </p>
         </div>
@@ -113,9 +113,9 @@ const Aboutus = () => {
           />
         </div>
         <div className="flex my-28 justify-center items-center">
-          <Person  name='Tom cruise'  title='Founder &amp; chairman'/>
-          <Person name='Emma watson'  title='Managing Director'/>
-          <Person name='Will smith' title='Product designer'/>
+          <Person name='Tom cruise' title='Founder &amp; chairman' />
+          <Person name='Emma watson' title='Managing Director' />
+          <Person name='Will smith' title='Product designer' />
         </div>
       </div>
       <Services />
